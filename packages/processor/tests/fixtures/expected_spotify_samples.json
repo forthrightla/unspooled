@@ -1,0 +1,20 @@
+[
+  {
+    "timestamp": "2022-01-01T00:00:00+00:00",
+    "track": "Eclipse",
+    "artist": "Twin Shadow",
+    "source_file": "Streaming_History_Audio_0.json"
+  },
+  {
+    "timestamp": "2022-01-02T05:30:00+00:00",
+    "track": "Midnight City",
+    "artist": null,
+    "source_file": "Streaming_History_Audio_0.json"
+  },
+  {
+    "timestamp": "2022-01-03T15:15:30+00:00",
+    "track": null,
+    "artist": "Unknown Mortal Orchestra",
+    "source_file": "Streaming_History_Audio_0.json"
+  }
+]

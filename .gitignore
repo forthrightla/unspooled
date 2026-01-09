@@ -1,0 +1,94 @@
+# Unspooled - Git Ignore
+
+# ===================
+# Data directories
+# ===================
+/data/
+/packages/visualizer/public/data/*.json
+/packages/visualizer/public/data/**/*.json
+/packages/visualizer/public/data/*.db
+
+# ===================
+# Configuration
+# ===================
+/config/settings.toml
+
+# ===================
+# Python
+# ===================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv/
+venv/
+ENV/
+.pytest_cache/
+.ruff_cache/
+*.sqlite
+*.sqlite-journal
+
+# ===================
+# Node.js
+# ===================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ===================
+# Next.js
+# ===================
+.next/
+out/
+.vercel
+
+# ===================
+# IDE & OS
+# ===================
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ===================
+# Build artifacts
+# ===================
+*.tsbuildinfo
+next-env.d.ts
+
+# ===================
+# Logs
+# ===================
+logs/
+*.log
+
+# ===================
+# Testing
+# ===================
+coverage/
+.nyc_output/

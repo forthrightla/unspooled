@@ -1,0 +1,40 @@
+# Unspooled - Configuration
+# Copy this file to settings.toml and customize for your setup
+
+[metadata]
+environment = "development"
+log_level = "INFO"
+timezone = "UTC"
+
+[paths]
+# Input data (Spotify JSON, Last.fm CSV exports)
+input_dir = "../../data/input"
+
+# Processed database output
+database_path = "../../data/processed/unspooled.sqlite"
+musicbrainz_cache = "../../data/processed/musicbrainz_cache.sqlite"
+
+# Export output (JSON files for visualizer)
+export_output = "../../packages/visualizer/public/data"
+
+[ingestion.spotify]
+history_glob = "Streaming_History*.json"
+min_duration_seconds = 30
+skip_podcasts = true
+
+[ingestion.lastfm]
+export_glob = "*.csv"
+dedupe_identical_scrobbles = true
+
+[ingestion.apple_music]
+library_xml_path = ""
+token = ""
+
+[enrichment]
+enabled = true
+max_retries = 3
+retry_backoff_seconds = 2.0
+
+  [enrichment.musicbrainz]
+  app_name = "unspooled/0.1 (contact@example.com)"
+  rate_limit_per_second = 1.0

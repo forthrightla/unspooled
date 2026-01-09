@@ -1,0 +1,7 @@
+uts,utc_time,artist,artist_mbid,album,album_mbid,track,track_mbid,duration_seconds,application
+1640995200,"1 Jan 2022, 00:00","Bayonne","222408bd-5db7-4cb1-b4ab-eb5078595846","Temporary Time","b5767627-1f3a-46b4-9509-ea641dd8cdcf","Right Thing","2adbaa32-8383-47bc-8310-ce4fda48e87e",240,spotify
+1640997000,"1 Jan 2022, 00:30","Portishead","8f6bd1e4-fbe1-4f50-aa9b-94c450ec0f11","","","Mysterons","82b6bc85-ce52-31e6-b60b-805520a899cf",0,lastfm-desktop
+1641000600,"1 Jan 2022, 01:30","Various Artists","","N/A","","Compilation Track","",210,ios
+1640995200,"2022-01-01T00:00:00Z","Bayonne","222408bd-5db7-4cb1-b4ab-eb5078595846","Temporary Time","b5767627-1f3a-46b4-9509-ea641dd8cdcf","Right Thing","2adbaa32-8383-47bc-8310-ce4fda48e87e",240,spotify
+,"2022-01-01T03:30:00Z","No Timestamp","","Unknown Album","","Unknown Track","",,web
+bad_timestamp,"not a date","Malformed Artist","","","","Bad Row","",,unknown
